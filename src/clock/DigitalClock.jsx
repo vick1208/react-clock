@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-export default function BroClock() {
+export default function DigitalClock() {
 
     const [time, setTime] = useState(new Date());
 

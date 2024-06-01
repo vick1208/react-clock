@@ -1,4 +1,5 @@
-import BroClock from "./clock/BroClock"
+import DigitalClock from "./clock/DigitalClock";
+
 
 
 
@@ -6,7 +7,7 @@ import BroClock from "./clock/BroClock"
 function App() {
   return (
     <>
-      <BroClock />
+      <DigitalClock />
     </>
   )
 }
